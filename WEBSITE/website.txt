@@ -1,0 +1,10 @@
+1. Registration Form
+  - Name
+  - Age 
+  - Gender/Sex
+  - Occupation (Physically Active or Not Physically Active)
+  - Address
+  - Nutriotion (Currently Healthy or Not)
+  - BMI (Weight, Height)
+  - Phone No. / Email
+  -
