@@ -7,4 +7,4 @@
   - Nutriotion (Currently Healthy or Not)
   - BMI (Weight, Height)
   - Phone No. / Email
-  -
+  - Password 
