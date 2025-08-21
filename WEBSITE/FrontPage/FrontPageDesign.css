@@ -72,3 +72,25 @@
     background-size: cover;
     height: 100%;
 }
+
+
+
+#General_Info{
+    border: 5px solid #ff0000;
+    border-radius: 10px;
+    padding: auto;
+    width: 700px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right:auto;
+}
+#Gender_label{
+    margin-left: 3px;
+}
+#Age_label{
+    
+    margin-left: 3px;
+}
+#Age_Options{
+   margin-left: 3px; 
+}
