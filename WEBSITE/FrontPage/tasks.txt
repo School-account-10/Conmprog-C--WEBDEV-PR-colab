@@ -1,4 +1,4 @@
-ask user for this info
+Our goals 
 
 
     first page (general info)
