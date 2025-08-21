@@ -1,0 +1,7 @@
+#BackGroundImg{
+   /* background-image: ;    please put good bg image here*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
