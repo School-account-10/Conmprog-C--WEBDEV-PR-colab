@@ -4,7 +4,7 @@ Our goals
     first page (general info)
 - gender /
 - age /
-- weight 
+- weight /
 
 
     second page (symptoms)
