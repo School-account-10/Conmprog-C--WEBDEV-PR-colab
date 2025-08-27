@@ -83,6 +83,7 @@
     margin-top: 60px;
     margin-left: auto;
     margin-right:auto;
+    padding-bottom: 30px;
 }
 #Gender_label{
     margin-left: 3px;
@@ -93,4 +94,13 @@
 }
 #Age_Options{
    margin-left: 3px; 
+}
+#Weight_slider{
+  margin-left: 3px; 
+  margin-top: auto;
+  
+}
+#weight_label{
+  margin-left: 3px; 
+  padding-bottom: 120px;
 }
