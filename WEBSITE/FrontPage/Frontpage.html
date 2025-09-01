@@ -11,7 +11,6 @@
 		<title>EasyMed - Your path to better health</title>
 	</head>
 	<body>
-    
 		<!-- HEADER -->
 
 		<div class="header">
@@ -28,38 +27,44 @@
 		<div id="General_Info">
 			<!-- diagnosis box (general information)-->
 			<h1 id="Head_Txt">EASY-MED SYMPTOM CHECKER</h1>
-			<label id="Gender_label" htmlFor="Gender_Options"
-				>What's your Gender
-			</label>
-			<select id="Gender_Options" name="Gender_input" value="male">
-				<option value="M">Male</option>
-				<option value="F">Female</option>
-			</select>
-			<br />
-			<label id="Age_label" htmlFor="Age_Options"
-				>What's your current age</label
-			>
-			<input
-				type="number"
-				name="Age_Options"
-				placeholder="18"
-				pattern="[0-9]"
-				min="0"
-				max="99"
-				step="1"
-				required />
-			<br />
-			<label id="weight_label" htmlFor="Weight_slider"
-				>What's your current weight</label
-			>
-			<input
-				type="range"
-				id="Weight_slider"
-				name="range_weight"
-				value="0"
-				min="0"
-				max="500"
-				required />
+			<form action="" method="post">
+				<label id="Gender_label" htmlFor="Gender_Options"
+					>What's your Gender
+				</label>
+				<select id="Gender_Options" name="Gender_input" value="male">
+					<option value="M">Male</option>
+					<option value="F">Female</option>
+				</select>
+				<br />
+				<label id="Age_label" htmlFor="Age_Options"
+					>What's your current age</label
+				>
+				<input
+					type="number"
+					name="Age_Options"
+					placeholder="18"
+					pattern="[0-9]"
+					min="0"
+					max="99"
+					step="1"
+					required />
+				<br />
+				<label id="weight_label" htmlFor="Weight_slider"
+					>What's your current weight</label
+				>
+				<input
+					type="range"
+					id="Weight_slider"
+					name="range_weight"
+					value="0"
+					min="0"
+					max="500"
+					required
+					oninput="document.getElementById('weight_lbs').textContent = this.value + ' lbs'; document.getElementById('weight_kg').textContent = (this.value * 0.453592).toFixed(2) + ' kg';" />
+				<span id="weight_lbs">0 lbs</span> | <span id="weight_kg">0.00 kg</span>
+				<br>
+				<input type="submit" id="submit_button" value="Submit" style="padding: 10px 20px; background-color: #4CAF50; color: white; border: none; border-radius: 4px; cursor: pointer;" />
+			</form>
 		</div>
 	</body>
 </html>
