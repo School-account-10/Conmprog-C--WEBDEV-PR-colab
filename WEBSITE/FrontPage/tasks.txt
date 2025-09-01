@@ -5,7 +5,7 @@ Our goals
 - gender /
 - age /
 - weight /
-
+- age specific weight
 
     second page (symptoms)
 -  what part of the body affected? (let user chose not in diagram) (this where we put things like fainting,vomiting..etc )

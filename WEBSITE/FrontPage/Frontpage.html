@@ -40,6 +40,7 @@
 					>What's your current age</label
 				>
 				<input
+					id="Age_picker"
 					type="number"
 					name="Age_Options"
 					placeholder="18"
@@ -59,9 +60,10 @@
 					value="0"
 					min="0"
 					max="2000"
-					required
-					oninput="document.getElementById('weight_lbs').textContent = this.value + ' lbs'; document.getElementById('weight_kg').textContent = (this.value * 0.453592).toFixed(2) + ' kg';" />
+					required />
+					
 				<span id="weight_lbs">0 lbs</span> | <span id="weight_kg">0.00 kg</span>
+				<script src="FronpageFunctions.js"></script>
 				<br>  
 				<input type="submit" id="submit_button" value="Submit"/>
 			</form>
