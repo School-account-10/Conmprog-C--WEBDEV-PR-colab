@@ -12,9 +12,11 @@
 	</head>
 	<body>
 		<!-- HEADER -->
-
 		<div class="header">
-			<a href="#default" class="logo">CompanyLogo</a>
+			<a href="#default" id="logo">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Red_Cross_icon.svg" alt="Red Cross Icon" style="width: 24px; height: 24px; vertical-align: middle; margin-right: 8px;">
+  EasyMed
+</a>
 			<div class="header-right">
 				<a class="active" href="#home">Home</a>
 				<a href="#contact">Contact</a>
@@ -25,49 +27,94 @@
 		<div id="BackGroundImg"></div>
 
 		<div id="General_Info">
-			<!-- diagnosis box (general information)-->
 			<h1 id="Head_Txt">EASY-MED SYMPTOM CHECKER</h1>
-			<form action="" method="get">
-				<label id="Gender_label" htmlFor="Gender_Options">
-					What's your Gender
-				</label>
-				<select id="Gender_Options" name="Gender_input" value="male">
-					<option value="M">Male</option>
-					<option value="F">Female</option>
-				</select>
-				<br />
-				<label id="Age_label" htmlFor="Age_Options"
-					>What's your current age</label
-				>
-				<input
-					id="Age_picker"
-					type="number"
-					name="Age_Options"
-					placeholder="18"
-					pattern="[0-9]"
-					min="0"
-					max="99"
-					step="1"
-					required />
-				<br />
-				<label id="weight_label" htmlFor="Weight_slider"
-					>What's your current weight</label
-				>
-				<input
-					type="range"
-					id="Weight_slider"
-					name="range_weight"
-					value=""
-					min=""
-					max="2000"
-					required />
+			<form action="" method="get" id="symptomForm">
+				<div class="form-group">
+					<label id="Gender_label" for="Gender_Options">Gender</label>
+					<select id="Gender_Options" name="Gender_input" required>
+						<option value="" disabled selected>Select gender</option>
+						<option value="M">Male</option>
+						<option value="F">Female</option>
+					</select>
+					<span class="error-message" id="genderError"></span>
+				</div>
 
-				<span id="weight_lbs">0 lbs</span> | <span id="weight_kg">0.00 kg</span>
-				
-				<br />
-				<input type="submit" id="submit_button" value="Submit" required />
+				<div class="form-group">
+					<label id="Age_label" for="Age_picker">Age</label>
+					<input
+						id="Age_picker"
+						type="number"
+						name="Age_Options"
+						placeholder="Enter age"
+						min="0"
+						max="120"
+						step="1"
+						required />
+					<span class="error-message" id="ageError"></span>
+				</div>
+
+				<div class="form-group">
+					<label id="weight_label" for="Weight_slider">Weight</label>
+					<input
+						type="range"
+						id="Weight_slider"
+						name="range_weight"
+						min="0"
+						max="500"
+						value="150"
+						required />
+					<div class="weight-display">
+						<span id="weight_lbs">150 lbs</span> | 
+						<span id="weight_kg">68.04 kg</span>
+					</div>
+				</div>
+
+				<input type="submit" id="submit_button" value="Proceed" />
 			</form>
-			<script src="FronpageFunctions.js"></script>
 		</div>
+
+		<script src="FronpageFunctions.js">
+			// Real-time weight conversion
+			const weightSlider = document.getElementById('Weight_slider');
+			const weightLbs = document.getElementById('weight_lbs');
+			const weightKg = document.getElementById('weight_kg');
+			const form = document.getElementById('symptomForm');
+			const ageInput = document.getElementById('Age_picker');
+			const genderSelect = document.getElementById('Gender_Options');
+
+			weightSlider.addEventListener('input', () => {
+				const lbs = weightSlider.value;
+				const kg = (lbs * 0.453592).toFixed(2);
+				weightLbs.textContent = `${lbs} lbs`;
+				weightKg.textContent = `${kg} kg`;
+			});
+
+			// Form validation
+			form.addEventListener('submit', (e) => {
+				e.preventDefault();
+				let isValid = true;
+
+				// Gender validation
+				if (!genderSelect.value) {
+					document.getElementById('genderError').textContent = 'Please select a gender';
+					isValid = false;
+				} else {
+					document.getElementById('genderError').textContent = '';
+				}
+
+				// Age validation
+				if (ageInput.value < 0 || ageInput.value > 120 || !ageInput.value) {
+					document.getElementById('ageError').textContent = 'Please enter a valid age (0-120)';
+					isValid = false;
+				} else {
+					document.getElementById('ageError').textContent = '';
+				}
+
+				if (isValid) {
+					// Add your form submission logic here
+					alert('Form submitted successfully!');
+				}
+			});
+		</script>
 	</body>
 </html>
