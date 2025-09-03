@@ -17,6 +17,8 @@ Our goals
     - itch
     - bleeding
 
+    - use ai to determin sickness
+
     
 
 
