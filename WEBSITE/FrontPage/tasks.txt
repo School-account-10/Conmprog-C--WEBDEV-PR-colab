@@ -10,6 +10,9 @@ Our goals
     second page (symptoms)
 -  what part of the body affected? (let user chose not in diagram) (this where we put things like fainting,vomiting..etc )
 -  what is it specifically?
+    - what the sickness IS EXPLAINED TO THE USER 
+    - PREVENTION OF THE SICKNESS HOW TO PRVENT 
+    - UI SOUNDS 
     - pain (make a pain scale)
     - itch
     - bleeding
