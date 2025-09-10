@@ -73,6 +73,8 @@ function validateForm(e) {
 
         
         alert('Form submitted successfully!');
+        alert('Proceding to next form ');
+        
     }
 }
 weight();
@@ -89,6 +91,3 @@ document.getElementById('Age_picker').addEventListener('input', weight_lim);
 document.getElementById('symptomForm').addEventListener('submit', validateForm);
 document.getElementById("Gender_Options").addEventListener('input',gender_ops_data );
 
-function adolf(){
-    alert("Do u want to bomb the whole world?")
-}
