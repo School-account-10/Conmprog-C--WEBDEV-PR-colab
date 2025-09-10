@@ -169,3 +169,36 @@ select:focus, input[type="number"]:focus {
   vertical-align: middle;
   margin-right: 8px;
 }
+
+#Disclaimer_bar{
+   border: 3px solid #ff0000;
+  border-radius: 20px;
+  padding: 3px;
+  text-align: center;
+  overflow: hidden; 
+  position: relative;
+  height: 40px; 
+
+}
+
+
+#disclaimer_text{
+ font-size: large;
+display: inline-block;
+  white-space: nowrap;
+  position: absolute;
+  left: 100%; 
+  animation: scroll 12s linear infinite;
+  bottom: 0.1%;
+
+}
+
+
+
+@keyframes scroll {
+ 0% { transform: translateX(-200%);}
+ 
+ 100% { transform: translateX(310px); 
+}
+
+}
