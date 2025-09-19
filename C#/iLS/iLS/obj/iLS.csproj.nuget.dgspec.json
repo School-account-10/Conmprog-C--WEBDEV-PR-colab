@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\garvi\\source\\repos\\iLS\\iLS\\iLS.csproj": {}
+    "C:\\Users\\Franzoli\\Desktop\\Coding\\Vscode\\Computer-ils\\gr12-ils\\Conmprog-C--WEBDEV-PR-colab\\C#\\iLS\\iLS\\iLS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\garvi\\source\\repos\\iLS\\iLS\\iLS.csproj": {
+    "C:\\Users\\Franzoli\\Desktop\\Coding\\Vscode\\Computer-ils\\gr12-ils\\Conmprog-C--WEBDEV-PR-colab\\C#\\iLS\\iLS\\iLS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\garvi\\source\\repos\\iLS\\iLS\\iLS.csproj",
+        "projectUniqueName": "C:\\Users\\Franzoli\\Desktop\\Coding\\Vscode\\Computer-ils\\gr12-ils\\Conmprog-C--WEBDEV-PR-colab\\C#\\iLS\\iLS\\iLS.csproj",
         "projectName": "iLS",
-        "projectPath": "C:\\Users\\garvi\\source\\repos\\iLS\\iLS\\iLS.csproj",
-        "packagesPath": "C:\\Users\\garvi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\garvi\\source\\repos\\iLS\\iLS\\obj\\",
+        "projectPath": "C:\\Users\\Franzoli\\Desktop\\Coding\\Vscode\\Computer-ils\\gr12-ils\\Conmprog-C--WEBDEV-PR-colab\\C#\\iLS\\iLS\\iLS.csproj",
+        "packagesPath": "C:\\Users\\Franzoli\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Franzoli\\Desktop\\Coding\\Vscode\\Computer-ils\\gr12-ils\\Conmprog-C--WEBDEV-PR-colab\\C#\\iLS\\iLS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "G:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\garvi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Franzoli\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
