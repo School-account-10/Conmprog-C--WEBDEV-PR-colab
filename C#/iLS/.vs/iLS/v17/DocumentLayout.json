@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Franzoli\\Desktop\\Coding\\Vscode\\Computer-ils\\gr12-ils\\Conmprog-C--WEBDEV-PR-colab\\C#\\iLS\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8ABD20C0-C6FC-45DE-9C4C-0C4595B5E563}|iLS\\iLS.csproj|c:\\users\\franzoli\\desktop\\coding\\vscode\\computer-ils\\gr12-ils\\conmprog-c--webdev-pr-colab\\c#\\ils\\ils\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8ABD20C0-C6FC-45DE-9C4C-0C4595B5E563}|iLS\\iLS.csproj|solutionrelative:ils\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ABD20C0-C6FC-45DE-9C4C-0C4595B5E563}|iLS\\iLS.csproj|c:\\users\\franzoli\\desktop\\coding\\vscode\\computer-ils\\gr12-ils\\conmprog-c--webdev-pr-colab\\c#\\ils\\ils\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ABD20C0-C6FC-45DE-9C4C-0C4595B5E563}|iLS\\iLS.csproj|solutionrelative:ils\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ABD20C0-C6FC-45DE-9C4C-0C4595B5E563}|iLS\\iLS.csproj|c:\\users\\franzoli\\desktop\\coding\\vscode\\computer-ils\\gr12-ils\\conmprog-c--webdev-pr-colab\\c#\\ils\\ils\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ABD20C0-C6FC-45DE-9C4C-0C4595B5E563}|iLS\\iLS.csproj|solutionrelative:ils\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ABD20C0-C6FC-45DE-9C4C-0C4595B5E563}|iLS\\iLS.csproj|c:\\users\\franzoli\\desktop\\coding\\vscode\\computer-ils\\gr12-ils\\conmprog-c--webdev-pr-colab\\c#\\ils\\ils\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ABD20C0-C6FC-45DE-9C4C-0C4595B5E563}|iLS\\iLS.csproj|solutionrelative:ils\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +39,61 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Franzoli\\Desktop\\Coding\\Vscode\\Computer-ils\\gr12-ils\\Conmprog-C--WEBDEV-PR-colab\\C#\\iLS\\iLS\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "iLS\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\Franzoli\\Desktop\\Coding\\Vscode\\Computer-ils\\gr12-ils\\Conmprog-C--WEBDEV-PR-colab\\C#\\iLS\\iLS\\Form1.Designer.cs",
+              "RelativeToolTip": "iLS\\Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T07:10:13.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Franzoli\\Desktop\\Coding\\Vscode\\Computer-ils\\gr12-ils\\Conmprog-C--WEBDEV-PR-colab\\C#\\iLS\\iLS\\Form1.cs",
+              "RelativeDocumentMoniker": "iLS\\Form1.cs",
+              "ToolTip": "C:\\Users\\Franzoli\\Desktop\\Coding\\Vscode\\Computer-ils\\gr12-ils\\Conmprog-C--WEBDEV-PR-colab\\C#\\iLS\\iLS\\Form1.cs",
+              "RelativeToolTip": "iLS\\Form1.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T07:09:15.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Franzoli\\Desktop\\Coding\\Vscode\\Computer-ils\\gr12-ils\\Conmprog-C--WEBDEV-PR-colab\\C#\\iLS\\iLS\\Program.cs",
+              "RelativeDocumentMoniker": "iLS\\Program.cs",
+              "ToolTip": "C:\\Users\\Franzoli\\Desktop\\Coding\\Vscode\\Computer-ils\\gr12-ils\\Conmprog-C--WEBDEV-PR-colab\\C#\\iLS\\iLS\\Program.cs",
+              "RelativeToolTip": "iLS\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T07:07:03.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Franzoli\\Desktop\\Coding\\Vscode\\Computer-ils\\gr12-ils\\Conmprog-C--WEBDEV-PR-colab\\C#\\iLS\\iLS\\Form1.cs",
+              "RelativeDocumentMoniker": "iLS\\Form1.cs",
+              "ToolTip": "C:\\Users\\Franzoli\\Desktop\\Coding\\Vscode\\Computer-ils\\gr12-ils\\Conmprog-C--WEBDEV-PR-colab\\C#\\iLS\\iLS\\Form1.cs [Design]",
+              "RelativeToolTip": "iLS\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T07:06:39.585Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
             }
           ]
         }
