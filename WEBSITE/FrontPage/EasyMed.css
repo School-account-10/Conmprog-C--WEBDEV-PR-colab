@@ -108,7 +108,9 @@ nav a:hover::after {
   size: 30px;
 }
 
-   
+#logoIMg{
+  size: 1px;
+}
 
 
    

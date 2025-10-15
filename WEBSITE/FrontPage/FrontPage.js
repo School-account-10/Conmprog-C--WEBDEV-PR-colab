@@ -1,4 +1,4 @@
-function Pageloader(page ){ // god help my ass
+function Pageloader(page){ // god help my ass
 
 const loaderdiv = document.getElementById("Loader")
 
@@ -17,3 +17,7 @@ fetch(page)
       console.error("Error loading page:", error);
     });
 } 
+function MainPageBack(){
+  console.log("hello")
+  window.location.replace(~FrontPage/EasyMed.html);
+}
