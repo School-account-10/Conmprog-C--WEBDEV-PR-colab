@@ -1,0 +1,201 @@
+﻿ //changes in form1.cs:
+
+ // set tooltip for info button
+ 
+ {
+            InitializeComponent();
+
+            // Set tooltip text for info button
+            toolTipInfo.SetToolTip(btnInfo,
+                "🩺 Quick Check-Up App\n\nSelect your symptoms and click 'Check'.\nYou’ll get a possible illness suggestion.\n\n⚠️ Note: This is not a medical diagnosis. Consult a doctor for confirmation.");
+        }
+
+// added quick check-up logic in btnCheck_Click event
+
+private void btnCheck_Click(object sender, EventArgs e)
+        {
+            // 1️⃣ Collect all selected symptoms
+            List<string> symptoms = new List<string>();
+            foreach (CheckBox chk in flowSymptoms.Controls.OfType<CheckBox>())
+            {
+                if (chk.Checked)
+                    symptoms.Add(chk.Text);
+
+                labelTimestamp.Text = "Last checked: " + DateTime.Now.ToString("MMM dd, yyyy  hh:mm tt");
+
+            }
+
+            // 2️⃣ Diagnosis output and severity level
+            string diagnosis = "";
+            string severity = "Low";
+
+            // 3️⃣ Match common illnesses (simple logic)
+            if (symptoms.Contains("Fever") && symptoms.Contains("Cough") && symptoms.Contains("Body Aches") && symptoms.Contains("Fatigue"))
+            {
+                diagnosis = "You may have Influenza (Flu)";
+                severity = "Medium";
+            }
+            else if (symptoms.Contains("Fever") && symptoms.Contains("Cough") && symptoms.Contains("Shortness of Breath") && symptoms.Contains("Chest Pain"))
+            {
+                diagnosis = "Possible Pneumonia or COVID-19";
+                severity = "High";
+            }
+            else if (symptoms.Contains("Headache") && symptoms.Contains("Fatigue"))
+            {
+                diagnosis = "You may be experiencing Migraine or Stress-related Fatigue";
+                severity = "Low";
+            }
+            else if (symptoms.Contains("Nausea") && symptoms.Contains("Vomiting") && symptoms.Contains("Diarrhea"))
+            {
+                diagnosis = "You may have Food Poisoning or Gastroenteritis";
+                severity = "Medium";
+            }
+            else if (symptoms.Contains("Sore Throat") && symptoms.Contains("Runny Nose") && symptoms.Contains("Cough"))
+            {
+                diagnosis = "You may have the Common Cold";
+                severity = "Low";
+            }
+            else
+            {
+                diagnosis = "No clear match. Please consult a doctor for a professional diagnosis.";
+                severity = "Low";
+            }
+
+            // 4️⃣ Display the output
+            labelOutput.Text = diagnosis;
+
+            // 5️⃣ Change result panel color based on severity
+            if (severity == "Low")
+                panelResult.BackColor = Color.LightGreen;
+            else if (severity == "Medium")
+                panelResult.BackColor = Color.Khaki;
+            else if (severity == "High")
+                panelResult.BackColor = Color.LightCoral;
+
+            // Save result to log file
+            string filePath = Path.Combine(Application.StartupPath, "CheckupHistory.txt");
+            string entry = $"[{DateTime.Now:MMM dd, yyyy hh:mm tt}] - Symptoms: {string.Join(", ", symptoms)} - Result: {labelOutput.Text}";
+            File.AppendAllText(filePath, entry + Environment.NewLine);
+
+            // Save the result to global history
+            AppData.History.Add($"{DateTime.Now}: {labelOutput.Text}");
+
+
+        }
+
+// added clear button logic in btnClear_Click event
+
+private void btnClear_Click(object sender, EventArgs e)
+        {
+            // Uncheck all symptom checkboxes
+            foreach (CheckBox chk in flowSymptoms.Controls.OfType<CheckBox>())
+            {
+                chk.Checked = false;
+            }
+
+            // Reset result text and panel color
+            labelOutput.Text = "Diagnosis will appear here...";
+            panelResult.BackColor = Color.WhiteSmoke;
+        }
+
+// added styling for info button in btnInfo_Click event
+
+private void btnInfo_Click(object sender, EventArgs e)
+        {
+            // Style btnInfo
+            btnInfo.FlatStyle = FlatStyle.Flat;
+            btnInfo.FlatAppearance.BorderSize = 0;
+            btnInfo.BackColor = Color.Transparent;
+            btnInfo.ForeColor = Color.DarkSlateBlue;
+            btnInfo.Font = new Font("Segoe UI Symbol", 14, FontStyle.Bold);
+        }
+
+// added new form for history log: FormHistory.cs
+
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace iLS
+{
+    public partial class FormHistory : Form
+    {
+
+
+        private void InitializeComponent()
+        {
+            labelTitle = new Label();
+            listHistory = new ListBox();
+            SuspendLayout();
+            // 
+            // labelTitle
+            // 
+            labelTitle.AutoSize = true;
+            labelTitle.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            labelTitle.Location = new Point(460, 9);
+            labelTitle.Name = "labelTitle";
+            labelTitle.Size = new Size(340, 38);
+            labelTitle.TabIndex = 0;
+            labelTitle.Text = "Health Check-Up History";
+            // 
+            // listHistory
+            // 
+            listHistory.Font = new Font("Segoe UI", 10F);
+            listHistory.FormattingEnabled = true;
+            listHistory.ItemHeight = 28;
+            listHistory.Location = new Point(0, 52);
+            listHistory.Name = "listHistory";
+            listHistory.ScrollAlwaysVisible = true;
+            listHistory.Size = new Size(1277, 396);
+            listHistory.TabIndex = 1;
+            // 
+            // FormHistory
+            // 
+            ClientSize = new Size(1278, 443);
+            Controls.Add(listHistory);
+            Controls.Add(labelTitle);
+            FormBorderStyle = FormBorderStyle.FixedDialog;
+            MaximizeBox = false;
+            Name = "FormHistory";
+            StartPosition = FormStartPosition.CenterParent;
+            Text = "Check-Up History";
+            Load += FormHistory_Load_1;
+            ResumeLayout(false);
+            PerformLayout();
+
+        }
+
+        private void FormHistory_Load_1(object sender, EventArgs e)
+        {
+            listHistory.Items.Clear();
+
+            foreach (string entry in AppData.History)
+            {
+                listHistory.Items.Add(entry);
+            }
+
+            if (AppData.History.Count == 0)
+            {
+                listHistory.Items.Add("No history yet.");
+            }
+        }
+
+    }
+}
+
+// added new static class for global data storage: AppData.cs
+
+namespace iLS
+{
+    public static class AppData
+    {
+        public static List<string> History = new List<string>();
+    }
+}
+
