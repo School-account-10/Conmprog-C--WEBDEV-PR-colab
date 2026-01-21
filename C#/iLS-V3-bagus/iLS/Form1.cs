@@ -1,4 +1,7 @@
-﻿namespace iLS
+﻿using System.Text.Json;
+namespace iLS
+
+
 {
 
 
@@ -12,6 +15,10 @@
             string[] mainDB = File.ReadAllLines("symptoms.txt");
             int mainDBIndex = 1; // do not change this index
             double percentage_of_sickness = 0.0; // change this later 
+            protected string name { get; set; }
+            protected string severity { get; set; }
+            protected List<string> symptoms { get; set; }
+
 
         }
         public Form1()
