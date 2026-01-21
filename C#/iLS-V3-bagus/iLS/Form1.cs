@@ -1,8 +1,19 @@
 ﻿namespace iLS
 {
 
+
+
     public partial class Form1 : Form
     {
+
+        protected class symptomsdb()
+        {
+
+            string[] mainDB = File.ReadAllLines("symptoms.txt");
+            int mainDBIndex = 1; // do not change this index
+            double percentage_of_sickness = 0.0; // change this later 
+
+        }
         public Form1()
         {
             InitializeComponent();
@@ -10,7 +21,9 @@
             // Set tooltip text for info button
             toolTipInfo.SetToolTip(btnInfo,
                 "🩺 Quick Check-Up App\n\nSelect your symptoms and click 'Check'.\nYou’ll get a possible illness suggestion.\n\n⚠️ Note: This is not a medical diagnosis. Consult a doctor for confirmation.");
+
         }
+
 
         // KEEP ONLY ONE Form1_Load METHOD - REMOVE THE DUPLICATE!
         private void Form1_Load(object sender, EventArgs e)
@@ -84,8 +97,11 @@
 
         private void btnCheck_Click(object sender, EventArgs e)
         {
+
             // 1️⃣ Collect all selected symptoms
             List<string> symptoms = new List<string>();
+
+
             foreach (CheckBox chk in flowSymptoms.Controls.OfType<CheckBox>())
             {
                 if (chk.Checked)
@@ -244,5 +260,9 @@
             historyForm.ShowDialog();
         }
 
+        private void chkFatigue_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

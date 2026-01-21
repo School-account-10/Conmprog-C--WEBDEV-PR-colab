@@ -1,0 +1,67 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Franzoli\\Desktop\\Coding\\Vscode\\Computer-ils\\gr12-ils\\Conmprog-C--WEBDEV-PR-colab\\C#\\iLS-V3-bagus\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8ABD20C0-C6FC-45DE-9C4C-0C4595B5E563}|iLS\\iLS.csproj|c:\\users\\franzoli\\desktop\\coding\\vscode\\computer-ils\\gr12-ils\\conmprog-c--webdev-pr-colab\\c#\\ils-v3-bagus\\ils\\formhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8ABD20C0-C6FC-45DE-9C4C-0C4595B5E563}|iLS\\iLS.csproj|solutionrelative:ils\\formhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ABD20C0-C6FC-45DE-9C4C-0C4595B5E563}|iLS\\iLS.csproj|C:\\Users\\Franzoli\\Desktop\\Coding\\Vscode\\Computer-ils\\gr12-ils\\Conmprog-C--WEBDEV-PR-colab\\C#\\iLS-V3-bagus\\ils\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8ABD20C0-C6FC-45DE-9C4C-0C4595B5E563}|iLS\\iLS.csproj|solutionrelative:ils\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormHistory.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Franzoli\\Desktop\\Coding\\Vscode\\Computer-ils\\gr12-ils\\Conmprog-C--WEBDEV-PR-colab\\C#\\iLS-V3-bagus\\iLS\\FormHistory.cs",
+              "RelativeDocumentMoniker": "iLS\\FormHistory.cs",
+              "ToolTip": "C:\\Users\\Franzoli\\Desktop\\Coding\\Vscode\\Computer-ils\\gr12-ils\\Conmprog-C--WEBDEV-PR-colab\\C#\\iLS-V3-bagus\\iLS\\FormHistory.cs [Design]",
+              "RelativeToolTip": "iLS\\FormHistory.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T00:24:11.478Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Franzoli\\Desktop\\Coding\\Vscode\\Computer-ils\\gr12-ils\\Conmprog-C--WEBDEV-PR-colab\\C#\\iLS-V3-bagus\\iLS\\Form1.cs",
+              "RelativeDocumentMoniker": "iLS\\Form1.cs",
+              "ToolTip": "C:\\Users\\Franzoli\\Desktop\\Coding\\Vscode\\Computer-ils\\gr12-ils\\Conmprog-C--WEBDEV-PR-colab\\C#\\iLS-V3-bagus\\iLS\\Form1.cs [Design]",
+              "RelativeToolTip": "iLS\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T11:33:12.159Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

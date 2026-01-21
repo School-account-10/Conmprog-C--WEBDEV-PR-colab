@@ -1,0 +1,57 @@
+(" DO NOT USE INDEX ZERO (start from index 1)") The common cold Influenza Tuberculosis Pneumonia Dengue Diarrhea Body Aches Possible Pneumonia or COVID-19 You may be experiencing Migraine or Stress-related Fatigue Food Poisoning Allergic Reaction Skin infections [
+	{
+		"name": "Common Cold",
+		"severity": "Low",
+		"symptoms": [ "Sore Throat", "Runny Nose", "Cough", "Sneezing" ]
+	},
+	{
+		"name": "Influenza (Flu)",
+		"severity": "Medium",
+		"symptoms": [ "Fever", "Cough", "Body Aches", "Fatigue", "Chills" ]
+	},
+	{
+		"name": "Tuberculosis",
+		"severity": "High",
+		"symptoms": [ "Chronic Cough", "Weight Loss", "Night Sweats", "Fever", "Chest Pain" ]
+	},
+	{
+		"name": "Pneumonia",
+		"severity": "High",
+		"symptoms": [ "Fever", "Cough", "Shortness of Breath", "Chest Pain", "Fatigue" ]
+	},
+	{
+		"name": "Dengue",
+		"severity": "High",
+		"symptoms": [ "High Fever", "Severe Headache", "Body Aches", "Joint Pain", "Rash" ]
+	},
+	{
+		"name": "Diarrhea",
+		"severity": "Medium",
+		"symptoms": [ "Diarrhea", "Abdominal Pain", "Dehydration", "Nausea" ]
+	},
+	{
+		"name": "Migraine / Stress-related Fatigue",
+		"severity": "Low",
+		"symptoms": [ "Headache", "Fatigue", "Sensitivity to Light" ]
+	},
+	{
+		"name": "Food Poisoning",
+		"severity": "Medium",
+		"symptoms": [ "Nausea", "Vomiting", "Diarrhea", "Abdominal Pain" ]
+	},
+	{
+		"name": "Allergic Reaction",
+		"severity": "Low",
+		"symptoms": [ "Itching", "Rash", "Sneezing", "Watery Eyes" ]
+	},
+	{
+		"name": "Skin Infection",
+		"severity": "Medium",
+		"symptoms": [ "Redness", "Swelling", "Pain", "Pus" ]
+	},
+	{
+		"name": "Possible Pneumonia or COVID-19",
+		"severity": "High",
+		"symptoms": [ "Fever", "Cough", "Shortness of Breath", "Chest Pain", "Loss of Smell" ]
+	}
+]

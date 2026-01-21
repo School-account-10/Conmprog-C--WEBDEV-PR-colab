@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kurtg\\Downloads\\School-account-10 Conmprog-C--WEBDEV-PR-colab 0eb4c23e10b47688b83ad8e6b3d7919d786a4dab C#-iLS\\iLS\\iLS.csproj": {}
+    "C:\\Users\\Franzoli\\Desktop\\Coding\\Vscode\\Computer-ils\\gr12-ils\\Conmprog-C--WEBDEV-PR-colab\\C#\\iLS-V3-bagus\\iLS\\iLS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kurtg\\Downloads\\School-account-10 Conmprog-C--WEBDEV-PR-colab 0eb4c23e10b47688b83ad8e6b3d7919d786a4dab C#-iLS\\iLS\\iLS.csproj": {
+    "C:\\Users\\Franzoli\\Desktop\\Coding\\Vscode\\Computer-ils\\gr12-ils\\Conmprog-C--WEBDEV-PR-colab\\C#\\iLS-V3-bagus\\iLS\\iLS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kurtg\\Downloads\\School-account-10 Conmprog-C--WEBDEV-PR-colab 0eb4c23e10b47688b83ad8e6b3d7919d786a4dab C#-iLS\\iLS\\iLS.csproj",
+        "projectUniqueName": "C:\\Users\\Franzoli\\Desktop\\Coding\\Vscode\\Computer-ils\\gr12-ils\\Conmprog-C--WEBDEV-PR-colab\\C#\\iLS-V3-bagus\\iLS\\iLS.csproj",
         "projectName": "iLS",
-        "projectPath": "C:\\Users\\kurtg\\Downloads\\School-account-10 Conmprog-C--WEBDEV-PR-colab 0eb4c23e10b47688b83ad8e6b3d7919d786a4dab C#-iLS\\iLS\\iLS.csproj",
-        "packagesPath": "C:\\Users\\kurtg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kurtg\\Downloads\\School-account-10 Conmprog-C--WEBDEV-PR-colab 0eb4c23e10b47688b83ad8e6b3d7919d786a4dab C#-iLS\\iLS\\obj\\",
+        "projectPath": "C:\\Users\\Franzoli\\Desktop\\Coding\\Vscode\\Computer-ils\\gr12-ils\\Conmprog-C--WEBDEV-PR-colab\\C#\\iLS-V3-bagus\\iLS\\iLS.csproj",
+        "packagesPath": "C:\\Users\\Franzoli\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Franzoli\\Desktop\\Coding\\Vscode\\Computer-ils\\gr12-ils\\Conmprog-C--WEBDEV-PR-colab\\C#\\iLS-V3-bagus\\iLS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\kurtg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Franzoli\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -45,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -69,7 +69,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
