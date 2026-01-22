@@ -12,22 +12,28 @@ namespace iLS
         public class Symptomsdb()
         {
             public string name { get; set; }
-           
+
             public string severity { get; set; }
-            
+
             public List<string> symptoms { get; set; }
-                      
-            public double CalculateMatch(List<string> selectedSymptoms)
+
+            public double CalculateMatch(List<string> userSelectedSymptoms)
             {
-                if (symptoms == null || symptoms.Count == 0)
-                    return 0;
+                
+                var diseaseSymptoms = this.symptoms.Select(s => s.ToLower().Trim()).ToHashSet();
+                var userSymptoms = userSelectedSymptoms.Select(s => s.ToLower().Trim()).ToHashSet();
 
-                var userSymptoms = selectedSymptoms.Select(s => s.ToLower().Trim()).ToList();
-                int matched = symptoms.Count(s => userSymptoms.Contains(s.ToLower().Trim()));
+                if (diseaseSymptoms.Count == 0 || userSymptoms.Count == 0) return 0;
 
-                return (double)matched / symptoms.Count;
+               
+                double matches = diseaseSymptoms.Intersect(userSymptoms).Count();
+
+               
+                double totalUnique = diseaseSymptoms.Union(userSymptoms).Count();
+
+               
+                return matches / totalUnique;
             }
-
         }
         public Form1()
         {
@@ -118,8 +124,9 @@ namespace iLS
             string severity = "Low";
 
             Symptomsdb bestMatch = null;
-            double bestScore = -1.2;
+            double bestScore =  0;
             // 1️⃣ Collect all selected symptoms
+
             List<string> symptoms = new List<string>();
 
             foreach (CheckBox chk in flowSymptoms.Controls.OfType<CheckBox>())
@@ -141,15 +148,15 @@ namespace iLS
                     string jsonContent = File.ReadAllText(fullPath);
                     List<Symptomsdb> diseaseDB = JsonSerializer.Deserialize<List<Symptomsdb>>(jsonContent);
 
-                    // THIS IS THE LOGIC LOOP YOU WERE MISSING
+                   
                     if (diseaseDB != null)
                     {
                         foreach (var disease in diseaseDB)
                         {
-                            // CalculateMatch is the method inside your Symptomsdb class
+                            
                             double score = disease.CalculateMatch(symptoms);
 
-                            // If this disease has a higher score than the current best, save it
+                            
                             if (score > bestScore)
                             {
                                 bestScore = score;
@@ -163,23 +170,29 @@ namespace iLS
             {
                 MessageBox.Show("Error loading database: " + ex.Message);
             }
+           
 
-            // --- 4. Determine Final Result ---
-            // If no match found or match is very weak (less than 30%)
-            if (bestMatch == null || bestScore < 0.4)
+            if (bestMatch == null || bestScore < 0.5)
             {
                 diagnosis = "No clear match. Please consult a doctor for a professional diagnosis.";
                 severity = "Low";
             }
+            else if(bestScore >= 0.5 && bestScore < 0.65)
+            {
+                int percent = (int)(bestScore * 100);
+
+                diagnosis = $"Possible diagnosis: {bestMatch.name} ({percent}% match)";
+                severity = bestMatch.severity;
+            } // TODO: make a else-if statement to check if theres 1 or 2 missmatches if so it will go back to no clear match - done
             else
             {
                 int percent = (int)(bestScore * 100);
-                // Using bestMatch.name (lowercase n) as defined in your class
-                diagnosis = $"Possible diagnosis: {bestMatch.name} ({percent}% match)";
+                diagnosis = $"High probability: {bestMatch.name} ({percent}% match)";
                 severity = bestMatch.severity;
-            } // TODO: make a else-if statement to check if theres 1 or 2 missmatches if so it will go back to no clear match
-            
-            // Display the output
+            }
+
+
+          // to the peep thats modifying this this part is what displys the content
             labelOutput.Text = diagnosis;
 
             // Change result panel color based on severity
@@ -192,13 +205,13 @@ namespace iLS
             else if (severity == "Very high!!")
                 panelResult.BackColor = Color.Black;
 
-            // Save result to log file
+            // Saving result to log file (useful for the sql stuff)
             string filePath = Path.Combine(Application.StartupPath, "CheckupHistory.txt");
             string entry = $"[{DateTime.Now:MMM dd, yyyy hh:mm tt}] - Symptoms: {string.Join(", ", symptoms)} - Result: {labelOutput.Text}";
-            File.AppendAllText(filePath, entry + Environment.NewLine);
+            File.AppendAllText(filePath, entry + Environment.NewLine); //todo reporpose to a protected only
 
-            // Save the result to global history
-            AppData.History.Add($"{DateTime.Now}: {labelOutput.Text}");
+            // Saving the result to global history (sql stuffs)
+            AppData.History.Add($"{DateTime.Now}: {labelOutput.Text}"); //todo reporpose to a protected only
 
 
         }

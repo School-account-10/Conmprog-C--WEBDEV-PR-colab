@@ -226,3 +226,300 @@
 [Jan 22, 2026 12:22 pm] - Symptoms: Fever, Headache - Result: No clear match. Please consult a doctor for a professional diagnosis.
 [Jan 22, 2026 12:23 pm] - Symptoms: Fatigue, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
 [Jan 22, 2026 12:23 pm] - Symptoms: Fever, Cough - Result: Possible diagnosis: Influenza (Flu) (40% match)
+[Jan 22, 2026 01:03 pm] - Symptoms: Cough - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 01:03 pm] - Symptoms: Cough, Body Aches - Result: Possible diagnosis: Influenza (Flu) (40% match)
+[Jan 22, 2026 01:03 pm] - Symptoms: Cough, Body Aches, Nausea - Result: Possible diagnosis: Influenza (Flu) (40% match)
+[Jan 22, 2026 01:03 pm] - Symptoms: Cough, Body Aches, Nausea - Result: Possible diagnosis: Influenza (Flu) (40% match)
+[Jan 22, 2026 01:03 pm] - Symptoms: Cough, Body Aches, Nausea - Result: Possible diagnosis: Influenza (Flu) (40% match)
+[Jan 22, 2026 01:03 pm] - Symptoms: Cough, Body Aches, Nausea - Result: Possible diagnosis: Influenza (Flu) (40% match)
+[Jan 22, 2026 01:03 pm] - Symptoms: Cough, Body Aches, Nausea - Result: Possible diagnosis: Influenza (Flu) (40% match)
+[Jan 22, 2026 01:03 pm] - Symptoms: Cough, Body Aches, Nausea - Result: Possible diagnosis: Influenza (Flu) (40% match)
+[Jan 22, 2026 01:03 pm] - Symptoms: Cough, Body Aches, Nausea - Result: Possible diagnosis: Influenza (Flu) (40% match)
+[Jan 22, 2026 01:03 pm] - Symptoms: Cough, Body Aches, Nausea - Result: Possible diagnosis: Influenza (Flu) (40% match)
+[Jan 22, 2026 01:03 pm] - Symptoms: Cough, Body Aches, Nausea, Vomiting - Result: Possible diagnosis: Food Poisoning (50% match)
+[Jan 22, 2026 01:03 pm] - Symptoms: Cough, Body Aches, Nausea, Vomiting - Result: Possible diagnosis: Food Poisoning (50% match)
+[Jan 22, 2026 01:03 pm] - Symptoms: Cough, Body Aches, Nausea, Vomiting, Diarrhea - Result: Possible diagnosis: Food Poisoning (75% match)
+[Jan 22, 2026 01:03 pm] - Symptoms: Cough, Body Aches, Nausea, Vomiting, Diarrhea - Result: Possible diagnosis: Food Poisoning (75% match)
+[Jan 22, 2026 01:03 pm] - Symptoms: Cough, Runny Nose, Body Aches, Nausea, Vomiting, Diarrhea - Result: Possible diagnosis: Food Poisoning (75% match)
+[Jan 22, 2026 01:03 pm] - Symptoms: Cough, Runny Nose, Body Aches, Nausea, Vomiting, Diarrhea - Result: Possible diagnosis: Food Poisoning (75% match)
+[Jan 22, 2026 01:03 pm] - Symptoms: Cough, Headache, Fatigue, Sore Throat, Runny Nose, Body Aches, Nausea, Vomiting, Diarrhea - Result: Possible diagnosis: Common Cold (100% match)
+[Jan 22, 2026 01:03 pm] - Symptoms: Cough, Headache, Fatigue, Sore Throat, Runny Nose, Body Aches, Nausea, Vomiting, Diarrhea - Result: Possible diagnosis: Common Cold (100% match)
+[Jan 22, 2026 01:04 pm] - Symptoms: Headache, Fatigue - Result: Possible diagnosis: Migraine / Stress-related Fatigue (66% match)
+[Jan 22, 2026 01:04 pm] - Symptoms: Cough, Headache, Fatigue - Result: Possible diagnosis: Migraine / Stress-related Fatigue (66% match)
+[Jan 22, 2026 01:04 pm] - Symptoms: Cough, Headache, Fatigue, Sore Throat - Result: Possible diagnosis: Common Cold (66% match)
+[Jan 22, 2026 01:06 pm] - Symptoms: Cough, Headache - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 01:06 pm] - Symptoms: Cough, Headache, Fatigue - Result: Possible diagnosis: Migraine / Stress-related Fatigue (66% match)
+[Jan 22, 2026 01:06 pm] - Symptoms: Cough, Headache, Fatigue - Result: Possible diagnosis: Migraine / Stress-related Fatigue (66% match)
+[Jan 22, 2026 01:07 pm] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat, Runny Nose, Body Aches, Nausea, Vomiting, Diarrhea, Shortness of Breath, Chest Pain - Result: Possible diagnosis: Common Cold (100% match)
+[Jan 22, 2026 09:32 pm] - Symptoms: Fever, Cough, Headache - Result: Possible diagnosis: Influenza (Flu) (40% match)
+[Jan 22, 2026 09:32 pm] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat, Runny Nose, Body Aches - Result: Possible diagnosis: Common Cold (100% match)
+[Jan 22, 2026 09:32 pm] - Symptoms: Sore Throat, Runny Nose, Body Aches - Result: Possible diagnosis: Common Cold (66% match)
+[Jan 22, 2026 09:32 pm] - Symptoms: Sore Throat, Runny Nose, Body Aches - Result: Possible diagnosis: Common Cold (66% match)
+[Jan 22, 2026 09:32 pm] - Symptoms: Sore Throat, Runny Nose, Body Aches - Result: Possible diagnosis: Common Cold (66% match)
+[Jan 22, 2026 09:32 pm] - Symptoms: Sore Throat, Runny Nose, Body Aches - Result: Possible diagnosis: Common Cold (66% match)
+[Jan 22, 2026 09:32 pm] - Symptoms: Sore Throat, Runny Nose, Body Aches - Result: Possible diagnosis: Common Cold (66% match)
+[Jan 22, 2026 09:32 pm] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat, Runny Nose, Body Aches, Nausea, Vomiting, Diarrhea, Shortness of Breath, Chest Pain - Result: Possible diagnosis: Common Cold (100% match)
+[Jan 22, 2026 09:33 pm] - Symptoms: Cough - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:33 pm] - Symptoms: Fever, Cough - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:33 pm] - Symptoms: Fever, Cough, Headache - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:33 pm] - Symptoms: Fever, Cough, Headache, Fatigue - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:33 pm] - Symptoms: Sore Throat, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:33 pm] - Symptoms: Sore Throat, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:33 pm] - Symptoms: Sore Throat, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:33 pm] - Symptoms: Cough, Sore Throat, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:33 pm] - Symptoms: Cough, Sore Throat, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:33 pm] - Symptoms: Cough, Sore Throat, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:33 pm] - Symptoms: Cough, Sore Throat, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:33 pm] - Symptoms: Cough, Sore Throat, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:33 pm] - Symptoms: Cough, Sore Throat, Runny Nose - Result: Possible diagnosis: Common Cold (100% match)
+[Jan 22, 2026 09:33 pm] - Symptoms: Cough, Fatigue, Sore Throat, Runny Nose - Result: Possible diagnosis: Common Cold (100% match)
+[Jan 22, 2026 09:33 pm] - Symptoms: Cough, Fatigue, Sore Throat, Runny Nose - Result: Possible diagnosis: Common Cold (100% match)
+[Jan 22, 2026 09:33 pm] - Symptoms: Cough, Fatigue, Sore Throat, Runny Nose - Result: Possible diagnosis: Common Cold (100% match)
+[Jan 22, 2026 09:33 pm] - Symptoms: Cough, Fatigue, Sore Throat, Runny Nose - Result: Possible diagnosis: Common Cold (100% match)
+[Jan 22, 2026 09:33 pm] - Symptoms: Cough, Fatigue, Sore Throat, Runny Nose - Result: Possible diagnosis: Common Cold (100% match)
+[Jan 22, 2026 09:33 pm] - Symptoms: Cough, Headache, Fatigue, Sore Throat, Runny Nose - Result: Possible diagnosis: Common Cold (100% match)
+[Jan 22, 2026 09:33 pm] - Symptoms: Cough, Headache, Fatigue, Sore Throat, Runny Nose - Result: Possible diagnosis: Common Cold (100% match)
+[Jan 22, 2026 09:33 pm] - Symptoms: Cough, Headache, Fatigue, Sore Throat, Runny Nose - Result: Possible diagnosis: Common Cold (100% match)
+[Jan 22, 2026 09:38 pm] - Symptoms: Cough, Headache, Fatigue, Sore Throat, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:38 pm] - Symptoms: Cough, Headache, Fatigue, Sore Throat, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:38 pm] - Symptoms: Cough, Headache, Fatigue, Sore Throat, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:38 pm] - Symptoms: Cough, Headache, Fatigue, Sore Throat, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:38 pm] - Symptoms: Cough, Headache, Sore Throat, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:38 pm] - Symptoms: Cough, Headache, Sore Throat, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:38 pm] - Symptoms: Cough, Headache, Sore Throat, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:38 pm] - Symptoms: Cough, Headache, Sore Throat, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:38 pm] - Symptoms: Cough, Headache, Sore Throat, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:38 pm] - Symptoms: Cough, Headache, Sore Throat, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:38 pm] - Symptoms: Cough, Sore Throat, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:38 pm] - Symptoms: Cough, Sore Throat, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:38 pm] - Symptoms: Cough, Sore Throat, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:38 pm] - Symptoms: Cough, Sore Throat, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:39 pm] - Symptoms: Cough, Sore Throat, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:39 pm] - Symptoms: Cough, Sore Throat, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:39 pm] - Symptoms: Cough, Sore Throat, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:39 pm] - Symptoms: Cough, Sore Throat, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:39 pm] - Symptoms: Cough, Sore Throat, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:39 pm] - Symptoms: Cough, Sore Throat, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:39 pm] - Symptoms: Cough, Sore Throat, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:39 pm] - Symptoms: Cough, Sore Throat, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:39 pm] - Symptoms: Cough, Sore Throat, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:39 pm] - Symptoms: Cough, Sore Throat, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:39 pm] - Symptoms: Cough, Sore Throat, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:39 pm] - Symptoms: Cough, Sore Throat, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:39 pm] - Symptoms: Cough, Sore Throat, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:39 pm] - Symptoms: Cough, Sore Throat, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:39 pm] - Symptoms: Cough, Sore Throat, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:40 pm] - Symptoms: Cough, Sore Throat, Runny Nose - Result: Possible diagnosis: Common Cold (100% match)
+[Jan 22, 2026 09:40 pm] - Symptoms: Cough, Sore Throat, Runny Nose - Result: Possible diagnosis: Common Cold (100% match)
+[Jan 22, 2026 09:40 pm] - Symptoms: Cough, Sore Throat, Runny Nose - Result: Possible diagnosis: Common Cold (100% match)
+[Jan 22, 2026 09:40 pm] - Symptoms: Cough, Sore Throat, Runny Nose - Result: Possible diagnosis: Common Cold (100% match)
+[Jan 22, 2026 09:40 pm] - Symptoms: Cough, Fatigue, Sore Throat, Runny Nose - Result: Possible diagnosis: Common Cold (100% match)
+[Jan 22, 2026 09:40 pm] - Symptoms: Cough, Fatigue, Sore Throat, Runny Nose - Result: Possible diagnosis: Common Cold (100% match)
+[Jan 22, 2026 09:40 pm] - Symptoms: Cough, Fatigue, Sore Throat, Runny Nose - Result: Possible diagnosis: Common Cold (100% match)
+[Jan 22, 2026 09:42 pm] - Symptoms: Cough, Fatigue, Sore Throat, Runny Nose - Result: Possible diagnosis: Common Cold (100% match)
+[Jan 22, 2026 09:42 pm] - Symptoms: Cough, Fatigue, Sore Throat, Runny Nose - Result: Possible diagnosis: Common Cold (100% match)
+[Jan 22, 2026 09:42 pm] - Symptoms: Cough, Fatigue, Sore Throat, Runny Nose - Result: Possible diagnosis: Common Cold (100% match)
+[Jan 22, 2026 09:42 pm] - Symptoms: Cough, Sore Throat, Runny Nose - Result: Possible diagnosis: Common Cold (100% match)
+[Jan 22, 2026 09:42 pm] - Symptoms: Cough, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:42 pm] - Symptoms: Cough, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:42 pm] - Symptoms: Cough, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:42 pm] - Symptoms: Cough, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:42 pm] - Symptoms: Cough, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:42 pm] - Symptoms: Cough, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:42 pm] - Symptoms: Cough, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:42 pm] - Symptoms: Cough, Fatigue, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:42 pm] - Symptoms: Cough, Fatigue, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:42 pm] - Symptoms: Cough, Fatigue, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:42 pm] - Symptoms: Cough, Fatigue, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:42 pm] - Symptoms: Cough, Fatigue, Sore Throat, Runny Nose - Result: Possible diagnosis: Common Cold (100% match)
+[Jan 22, 2026 09:42 pm] - Symptoms: Cough, Fatigue, Sore Throat, Runny Nose - Result: Possible diagnosis: Common Cold (100% match)
+[Jan 22, 2026 09:42 pm] - Symptoms: Cough, Fatigue, Sore Throat, Runny Nose - Result: Possible diagnosis: Common Cold (100% match)
+[Jan 22, 2026 09:42 pm] - Symptoms: Cough, Fatigue, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:42 pm] - Symptoms: Cough, Fatigue, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:42 pm] - Symptoms: Cough, Fatigue, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:42 pm] - Symptoms: Cough, Fatigue, Sore Throat, Runny Nose - Result: Possible diagnosis: Common Cold (100% match)
+[Jan 22, 2026 09:44 pm] - Symptoms: Cough, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:44 pm] - Symptoms: Cough, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:44 pm] - Symptoms: Cough, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:44 pm] - Symptoms: Cough, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:44 pm] - Symptoms: Cough, Sore Throat, Runny Nose - Result: Possible diagnosis: Common Cold (100% match)
+[Jan 22, 2026 09:44 pm] - Symptoms: Cough, Sore Throat, Runny Nose - Result: Possible diagnosis: Common Cold (100% match)
+[Jan 22, 2026 09:44 pm] - Symptoms: Cough, Headache, Sore Throat, Runny Nose - Result: Possible diagnosis: Common Cold (100% match)
+[Jan 22, 2026 09:44 pm] - Symptoms: Cough, Headache, Sore Throat, Runny Nose - Result: Possible diagnosis: Common Cold (100% match)
+[Jan 22, 2026 09:44 pm] - Symptoms: Cough, Headache, Sore Throat, Runny Nose - Result: Possible diagnosis: Common Cold (100% match)
+[Jan 22, 2026 09:44 pm] - Symptoms: Cough, Headache, Sore Throat, Runny Nose - Result: Possible diagnosis: Common Cold (100% match)
+[Jan 22, 2026 09:44 pm] - Symptoms: Cough, Headache, Sore Throat, Runny Nose - Result: Possible diagnosis: Common Cold (100% match)
+[Jan 22, 2026 09:44 pm] - Symptoms: Cough, Headache, Sore Throat, Runny Nose - Result: Possible diagnosis: Common Cold (100% match)
+[Jan 22, 2026 09:45 pm] - Symptoms: Cough, Headache, Sore Throat, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:45 pm] - Symptoms: Cough, Headache, Sore Throat, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:45 pm] - Symptoms: Cough, Headache, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:45 pm] - Symptoms: Cough, Headache, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:45 pm] - Symptoms: Cough, Headache, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:45 pm] - Symptoms: Cough, Headache, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:46 pm] - Symptoms: Cough, Headache, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:46 pm] - Symptoms: Cough, Headache, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:46 pm] - Symptoms: Cough, Headache, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:46 pm] - Symptoms: Cough, Headache - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:46 pm] - Symptoms: Cough, Headache - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:46 pm] - Symptoms: Cough, Headache - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:46 pm] - Symptoms: Cough, Headache, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:46 pm] - Symptoms: Cough, Headache, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:46 pm] - Symptoms: Cough, Headache, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:46 pm] - Symptoms: Cough, Headache, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:46 pm] - Symptoms: Cough, Headache, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:46 pm] - Symptoms: Cough, Headache, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:46 pm] - Symptoms: Cough, Headache, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:46 pm] - Symptoms: Cough, Headache, Fatigue - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:46 pm] - Symptoms: Cough, Headache, Fatigue - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:46 pm] - Symptoms: Cough, Headache, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:46 pm] - Symptoms: Cough, Headache, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:46 pm] - Symptoms: Cough, Headache, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:46 pm] - Symptoms: Cough, Headache, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:46 pm] - Symptoms: Cough, Headache, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:46 pm] - Symptoms: Cough, Headache, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:46 pm] - Symptoms: Cough, Headache, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:46 pm] - Symptoms: Cough, Headache, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:46 pm] - Symptoms: Cough, Headache, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:46 pm] - Symptoms: Cough, Headache, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:46 pm] - Symptoms: Cough, Headache, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:46 pm] - Symptoms: Cough, Headache, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:46 pm] - Symptoms: Cough, Headache, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:46 pm] - Symptoms: Cough, Headache, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:46 pm] - Symptoms: Cough, Headache, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:46 pm] - Symptoms: Cough, Headache, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:46 pm] - Symptoms: Cough, Headache, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:46 pm] - Symptoms: Cough, Headache, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:46 pm] - Symptoms: Cough, Headache, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:46 pm] - Symptoms: Cough, Headache, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:46 pm] - Symptoms: Cough, Headache, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:47 pm] - Symptoms: Cough, Headache, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:47 pm] - Symptoms: Cough, Headache, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:47 pm] - Symptoms: Cough, Headache, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:47 pm] - Symptoms: Cough, Headache, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:47 pm] - Symptoms: Cough, Headache, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:47 pm] - Symptoms: Cough, Headache, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:47 pm] - Symptoms: Cough, Headache, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:47 pm] - Symptoms: Cough, Headache, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:47 pm] - Symptoms: Cough, Headache, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:47 pm] - Symptoms: Fever - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:47 pm] - Symptoms: Fever - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:47 pm] - Symptoms: Cough, Headache, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:47 pm] - Symptoms: Cough, Headache, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:47 pm] - Symptoms: Cough, Headache, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:47 pm] - Symptoms: Cough, Headache, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:47 pm] - Symptoms: Cough, Headache, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:47 pm] - Symptoms: Cough, Headache, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:47 pm] - Symptoms: Cough, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:47 pm] - Symptoms: Cough, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:47 pm] - Symptoms: Cough, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:47 pm] - Symptoms: Cough, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:47 pm] - Symptoms: Cough, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:47 pm] - Symptoms: Cough, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:48 pm] - Symptoms: Cough, Sore Throat, Runny Nose - Result: Possible diagnosis: Common Cold (100% match)
+[Jan 22, 2026 09:48 pm] - Symptoms: Cough, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:48 pm] - Symptoms: Cough, Sore Throat, Runny Nose - Result: Possible diagnosis: Common Cold (100% match)
+[Jan 22, 2026 09:48 pm] - Symptoms: Cough, Fatigue, Sore Throat, Runny Nose - Result: Possible diagnosis: Common Cold (100% match)
+[Jan 22, 2026 09:48 pm] - Symptoms: Cough, Fatigue, Sore Throat, Runny Nose - Result: Possible diagnosis: Common Cold (100% match)
+[Jan 22, 2026 09:48 pm] - Symptoms: Cough, Fatigue, Sore Throat, Runny Nose - Result: Possible diagnosis: Common Cold (100% match)
+[Jan 22, 2026 09:48 pm] - Symptoms: Cough, Fatigue, Sore Throat, Runny Nose - Result: Possible diagnosis: Common Cold (100% match)
+[Jan 22, 2026 09:48 pm] - Symptoms: Cough, Fatigue, Sore Throat, Runny Nose - Result: 
+[Jan 22, 2026 09:48 pm] - Symptoms: Cough, Fatigue, Sore Throat, Runny Nose - Result: 
+[Jan 22, 2026 09:48 pm] - Symptoms: Cough, Fatigue, Sore Throat, Runny Nose - Result: 
+[Jan 22, 2026 09:48 pm] - Symptoms: Cough, Fatigue, Sore Throat, Runny Nose - Result: 
+[Jan 22, 2026 09:48 pm] - Symptoms: Cough, Fatigue, Sore Throat, Runny Nose - Result: 
+[Jan 22, 2026 09:48 pm] - Symptoms: Cough, Fatigue, Sore Throat, Runny Nose - Result: 
+[Jan 22, 2026 09:48 pm] - Symptoms: Cough, Fatigue, Sore Throat, Runny Nose - Result: 
+[Jan 22, 2026 09:48 pm] - Symptoms: Cough, Fatigue, Sore Throat, Runny Nose - Result: 
+[Jan 22, 2026 09:48 pm] - Symptoms: Cough, Fatigue, Sore Throat, Runny Nose - Result: 
+[Jan 22, 2026 09:48 pm] - Symptoms: Cough, Sore Throat, Runny Nose - Result: 
+[Jan 22, 2026 09:48 pm] - Symptoms: Cough, Sore Throat, Runny Nose - Result: 
+[Jan 22, 2026 09:48 pm] - Symptoms: Cough, Sore Throat, Runny Nose - Result: 
+[Jan 22, 2026 09:54 pm] - Symptoms: Cough - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:54 pm] - Symptoms: Cough, Headache - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:54 pm] - Symptoms: Cough, Headache, Fatigue - Result: Possible diagnosis: Migraine / Stress-related Fatigue (66% match)
+[Jan 22, 2026 09:54 pm] - Symptoms: Fever, Cough, Headache, Fatigue - Result: Possible diagnosis: Migraine / Stress-related Fatigue (66% match)
+[Jan 22, 2026 09:54 pm] - Symptoms: Fever, Cough, Headache, Fatigue - Result: Possible diagnosis: Migraine / Stress-related Fatigue (66% match)
+[Jan 22, 2026 09:54 pm] - Symptoms: Fever, Cough, Headache, Fatigue - Result: Possible diagnosis: Migraine / Stress-related Fatigue (66% match)
+[Jan 22, 2026 09:54 pm] - Symptoms: Fever, Cough, Headache, Fatigue - Result: Possible diagnosis: Migraine / Stress-related Fatigue (66% match)
+[Jan 22, 2026 09:54 pm] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat - Result: Possible diagnosis: Common Cold (66% match)
+[Jan 22, 2026 09:54 pm] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat, Runny Nose - Result: High probability: Common Cold (100% match)
+[Jan 22, 2026 09:54 pm] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat, Runny Nose - Result: High probability: Common Cold (100% match)
+[Jan 22, 2026 09:54 pm] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat, Runny Nose - Result: High probability: Common Cold (100% match)
+[Jan 22, 2026 09:54 pm] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat, Runny Nose - Result: High probability: Common Cold (100% match)
+[Jan 22, 2026 09:54 pm] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat, Runny Nose - Result: High probability: Common Cold (100% match)
+[Jan 22, 2026 09:58 pm] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat, Runny Nose - Result: High probability: Common Cold (100% match)
+[Jan 22, 2026 09:58 pm] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat, Runny Nose - Result: High probability: Common Cold (100% match)
+[Jan 22, 2026 09:58 pm] - Symptoms: Fever - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:58 pm] - Symptoms: Fever, Headache - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:58 pm] - Symptoms: Fever, Cough, Headache - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 22, 2026 09:58 pm] - Symptoms: Fever, Cough, Headache, Fatigue - Result: Possible diagnosis: Migraine / Stress-related Fatigue (66% match)
+[Jan 22, 2026 09:58 pm] - Symptoms: Fever, Cough, Headache, Fatigue - Result: Possible diagnosis: Migraine / Stress-related Fatigue (66% match)
+[Jan 22, 2026 09:58 pm] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat - Result: Possible diagnosis: Common Cold (66% match)
+[Jan 22, 2026 09:58 pm] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat, Runny Nose - Result: High probability: Common Cold (100% match)
+[Jan 22, 2026 09:58 pm] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat, Runny Nose, Body Aches - Result: High probability: Common Cold (100% match)
+[Jan 22, 2026 09:58 pm] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat, Runny Nose, Body Aches - Result: High probability: Common Cold (100% match)
+[Jan 22, 2026 09:58 pm] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat, Runny Nose, Body Aches - Result: High probability: Common Cold (100% match)
+[Jan 22, 2026 09:58 pm] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat, Runny Nose, Body Aches - Result: High probability: Common Cold (100% match)
+[Jan 22, 2026 09:58 pm] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat, Runny Nose, Body Aches, Nausea - Result: High probability: Common Cold (100% match)
+[Jan 22, 2026 09:58 pm] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat, Runny Nose, Body Aches, Nausea, Vomiting, Chest Pain - Result: High probability: Common Cold (100% match)
+[Jan 22, 2026 09:58 pm] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat, Runny Nose, Body Aches, Nausea, Vomiting, Chest Pain - Result: High probability: Common Cold (100% match)
+[Jan 22, 2026 09:58 pm] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat, Runny Nose, Body Aches, Nausea, Vomiting, Chest Pain - Result: High probability: Common Cold (100% match)
+[Jan 22, 2026 09:58 pm] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat, Runny Nose, Body Aches, Nausea, Vomiting, Diarrhea, Shortness of Breath, Chest Pain - Result: High probability: Common Cold (100% match)
+[Jan 22, 2026 09:58 pm] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat, Runny Nose, Body Aches, Nausea, Vomiting, Diarrhea, Shortness of Breath, Chest Pain - Result: High probability: Common Cold (100% match)
+[Jan 23, 2026 06:00 am] - Symptoms: Fever, Cough - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 23, 2026 06:00 am] - Symptoms: Fever, Cough, Runny Nose - Result: Possible diagnosis: Common Cold (50% match)
+[Jan 23, 2026 06:00 am] - Symptoms: Fever, Cough, Sore Throat, Runny Nose - Result: Possible diagnosis: Common Cold (75% match)
+[Jan 23, 2026 06:00 am] - Symptoms: Fever, Cough, Sore Throat, Runny Nose, Diarrhea - Result: Possible diagnosis: Common Cold (60% match)
+[Jan 23, 2026 06:01 am] - Symptoms: Fever, Cough, Sore Throat, Runny Nose, Nausea, Vomiting, Diarrhea - Result: Possible diagnosis: Possible Death (63% match)
+[Jan 23, 2026 06:01 am] - Symptoms: Fever, Cough, Sore Throat, Runny Nose, Body Aches, Nausea, Vomiting, Diarrhea - Result: Possible diagnosis: Possible Death (72% match)
+[Jan 23, 2026 06:01 am] - Symptoms: Fever, Cough, Fatigue, Sore Throat, Runny Nose, Body Aches, Nausea, Vomiting, Diarrhea - Result: Possible diagnosis: Possible Death (66% match)
+[Jan 23, 2026 06:03 am] - Symptoms: Fever, Headache - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 23, 2026 06:03 am] - Symptoms: Fever, Headache, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 23, 2026 06:04 am] - Symptoms: Fever, Headache, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 23, 2026 06:04 am] - Symptoms: Fever, Headache, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 23, 2026 06:04 am] - Symptoms: Fever, Headache, Fatigue, Sore Throat - Result: High probability: Migraine / Stress-related Fatigue (40% match)
+[Jan 23, 2026 06:04 am] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat - Result: High probability: Influenza (Flu) (42% match)
+[Jan 23, 2026 06:04 am] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat, Nausea - Result: High probability: Possible Death (41% match)
+[Jan 23, 2026 06:04 am] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat, Nausea - Result: High probability: Possible Death (41% match)
+[Jan 23, 2026 06:04 am] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat, Nausea - Result: High probability: Possible Death (41% match)
+[Jan 23, 2026 06:04 am] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat, Nausea - Result: High probability: Possible Death (41% match)
+[Jan 23, 2026 06:04 am] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat - Result: High probability: Influenza (Flu) (42% match)
+[Jan 23, 2026 06:04 am] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat, Runny Nose - Result: Possible diagnosis: Common Cold (50% match)
+[Jan 23, 2026 06:05 am] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat, Runny Nose, Body Aches - Result: Possible diagnosis: Influenza (Flu) (50% match)
+[Jan 23, 2026 06:05 am] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat, Runny Nose, Body Aches, Nausea - Result: Possible diagnosis: Possible Death (58% match)
+[Jan 23, 2026 06:05 am] - Symptoms: Shortness of Breath, Chest Pain - Result: High probability: Pneumonia (40% match)
+[Jan 23, 2026 06:06 am] - Symptoms: Headache, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 23, 2026 06:06 am] - Symptoms: Fever, Headache, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 23, 2026 06:06 am] - Symptoms: Fever, Cough, Headache, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 23, 2026 06:06 am] - Symptoms: Fever, Cough, Headache, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 23, 2026 06:06 am] - Symptoms: Fever, Cough, Headache, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 23, 2026 06:06 am] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 23, 2026 06:06 am] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 23, 2026 06:06 am] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 23, 2026 06:06 am] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 23, 2026 06:06 am] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 23, 2026 06:06 am] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat, Runny Nose - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 23, 2026 06:06 am] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat, Runny Nose, Body Aches - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 23, 2026 06:06 am] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat, Runny Nose, Body Aches - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 23, 2026 06:06 am] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat, Runny Nose, Body Aches, Nausea - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 23, 2026 06:06 am] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat, Runny Nose, Body Aches, Nausea - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 23, 2026 06:06 am] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat, Runny Nose, Body Aches, Nausea - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 23, 2026 06:06 am] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat, Runny Nose, Body Aches, Nausea, Vomiting - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 23, 2026 06:06 am] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat, Runny Nose, Body Aches, Nausea, Vomiting - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 23, 2026 06:06 am] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat, Runny Nose, Body Aches, Nausea, Vomiting - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 23, 2026 06:06 am] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat, Runny Nose, Body Aches, Nausea, Vomiting, Diarrhea - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 23, 2026 06:06 am] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat, Runny Nose, Body Aches, Nausea, Vomiting, Diarrhea - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 23, 2026 06:06 am] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat, Runny Nose, Body Aches, Nausea, Vomiting, Diarrhea - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 23, 2026 06:06 am] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat, Runny Nose, Body Aches, Nausea, Vomiting, Diarrhea, Shortness of Breath - Result: High probability: Possible Death (83% match)
+[Jan 23, 2026 06:06 am] - Symptoms: Fever, Cough, Headache, Fatigue, Sore Throat, Runny Nose, Body Aches, Nausea, Vomiting, Diarrhea, Shortness of Breath - Result: High probability: Possible Death (83% match)
+[Jan 23, 2026 06:07 am] - Symptoms: Cough, Sore Throat, Runny Nose - Result: High probability: Common Cold (100% match)
+[Jan 23, 2026 06:07 am] - Symptoms: Cough, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 23, 2026 06:07 am] - Symptoms: Cough, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 23, 2026 06:07 am] - Symptoms: Cough, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 23, 2026 06:07 am] - Symptoms: Cough, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 23, 2026 06:07 am] - Symptoms: Cough, Sore Throat, Runny Nose - Result: High probability: Common Cold (100% match)
+[Jan 23, 2026 06:07 am] - Symptoms: Cough, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 23, 2026 06:07 am] - Symptoms: Cough, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 23, 2026 06:07 am] - Symptoms: Cough, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 23, 2026 06:07 am] - Symptoms: Cough, Sore Throat - Result: No clear match. Please consult a doctor for a professional diagnosis.
+[Jan 23, 2026 06:07 am] - Symptoms: Cough, Sore Throat - Result: High probability: Common Cold (66% match)
