@@ -1,4 +1,5 @@
-﻿using System.Text.Json;
+﻿using System.Diagnostics.Eventing.Reader;
+using System.Text.Json;
 
 namespace iLS
 {
@@ -117,7 +118,7 @@ namespace iLS
             string severity = "Low";
 
             Symptomsdb bestMatch = null;
-            double bestScore = 0;
+            double bestScore = -1.2;
             // 1️⃣ Collect all selected symptoms
             List<string> symptoms = new List<string>();
 
@@ -132,7 +133,7 @@ namespace iLS
 
             try
             {
-                
+
                 string fullPath = Path.GetFullPath("C:\\Users\\Franzoli\\Desktop\\Coding\\Vscode\\Computer-ils\\gr12-ils\\Conmprog-C--WEBDEV-PR-colab\\C#\\iLS-V3-bagus\\iLS\\Resources\\symptomsDB\\symptoms.json");
 
                 if (File.Exists(fullPath))
@@ -165,7 +166,7 @@ namespace iLS
 
             // --- 4. Determine Final Result ---
             // If no match found or match is very weak (less than 30%)
-            if (bestMatch == null || bestScore < 0.3)
+            if (bestMatch == null || bestScore < 0.4)
             {
                 diagnosis = "No clear match. Please consult a doctor for a professional diagnosis.";
                 severity = "Low";
@@ -176,7 +177,8 @@ namespace iLS
                 // Using bestMatch.name (lowercase n) as defined in your class
                 diagnosis = $"Possible diagnosis: {bestMatch.name} ({percent}% match)";
                 severity = bestMatch.severity;
-            }
+            } // TODO: make a else-if statement to check if theres 1 or 2 missmatches if so it will go back to no clear match
+            
             // Display the output
             labelOutput.Text = diagnosis;
 
@@ -187,6 +189,8 @@ namespace iLS
                 panelResult.BackColor = Color.Khaki;
             else if (severity == "High")
                 panelResult.BackColor = Color.LightCoral;
+            else if (severity == "Very high!!")
+                panelResult.BackColor = Color.Black;
 
             // Save result to log file
             string filePath = Path.Combine(Application.StartupPath, "CheckupHistory.txt");

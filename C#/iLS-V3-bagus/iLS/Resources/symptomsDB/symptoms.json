@@ -2,7 +2,7 @@
 	{
 		"name": "Common Cold",
 		"severity": "Low",
-		"symptoms": [ "Sore Throat", "Runny Nose", "Cough"]
+		"symptoms": [ "Sore Throat", "Runny Nose", "Cough" ]
 	},
 	{
 		"name": "Influenza (Flu)",
@@ -53,5 +53,11 @@
 		"name": "Possible Pneumonia or COVID-19",
 		"severity": "High",
 		"symptoms": [ "Fever", "Cough", "Shortness of Breath", "Chest Pain", "Loss of Smell" ]
+
+	},
+	{
+		"name": "Possible Death",
+		"severity": "Very high!!",
+		"symptoms": [ "Fever", "Cough", "Headache", "Sore Throat", "Runny Nose", "Body Aches", "Nausea", "Vomiting", "Diarrhea", "Shortness of Breath", "Chest Pain" ]
 	}
 ]
