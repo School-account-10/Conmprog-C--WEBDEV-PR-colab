@@ -543,13 +543,13 @@
         private Label label4;
         private Label label3;
         private Button btnCheck;
-        private CheckBox chkFatigue;
-        private CheckBox chkHeadache;
-        private CheckBox chkCough;
-        private CheckBox chkFever;
-        private Panel panelResult;
         private FlowLayoutPanel flowSymptoms;
+        private Panel panelResult;
         private Button btnClear;
+        private CheckBox chkFatigue; // changed how they are listed. why are they seperated in the first pplace? >:(
+        private CheckBox chkHeadache; // to make future modifications easier. try to make them listed in order of use thanks - franz
+        private CheckBox chkCough;
+        private CheckBox chkFever;    
         private CheckBox chkSoreThroat;
         private CheckBox chkRunnyNose;
         private CheckBox chkBodyAches;

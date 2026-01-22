@@ -1,8 +1,8 @@
-(" DO NOT USE INDEX ZERO (start from index 1)") The common cold Influenza Tuberculosis Pneumonia Dengue Diarrhea Body Aches Possible Pneumonia or COVID-19 You may be experiencing Migraine or Stress-related Fatigue Food Poisoning Allergic Reaction Skin infections [
+[
 	{
 		"name": "Common Cold",
 		"severity": "Low",
-		"symptoms": [ "Sore Throat", "Runny Nose", "Cough", "Sneezing" ]
+		"symptoms": [ "Sore Throat", "Runny Nose", "Cough"]
 	},
 	{
 		"name": "Influenza (Flu)",

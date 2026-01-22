@@ -1,4 +1,6 @@
-﻿namespace iLS
+﻿using System.Text.Json;
+
+namespace iLS
 {
 
 
@@ -6,12 +8,24 @@
     public partial class Form1 : Form
     {
 
-        protected class symptomsdb()
+        public class Symptomsdb()
         {
+            public string name { get; set; }
+           
+            public string severity { get; set; }
+            
+            public List<string> symptoms { get; set; }
+                      
+            public double CalculateMatch(List<string> selectedSymptoms)
+            {
+                if (symptoms == null || symptoms.Count == 0)
+                    return 0;
 
-            string[] mainDB = File.ReadAllLines("symptoms.txt");
-            int mainDBIndex = 1; // do not change this index
-            double percentage_of_sickness = 0.0; // change this later 
+                var userSymptoms = selectedSymptoms.Select(s => s.ToLower().Trim()).ToList();
+                int matched = symptoms.Count(s => userSymptoms.Contains(s.ToLower().Trim()));
+
+                return (double)matched / symptoms.Count;
+            }
 
         }
         public Form1()
@@ -96,11 +110,16 @@
         }
 
         private void btnCheck_Click(object sender, EventArgs e)
-        {
+        { // changed the logic to not make this as long cuz this used too many if-else statements 
+            // looks like yanderedev's source code lol
 
+            string diagnosis = "";
+            string severity = "Low";
+
+            Symptomsdb bestMatch = null;
+            double bestScore = 0;
             // 1️⃣ Collect all selected symptoms
             List<string> symptoms = new List<string>();
-
 
             foreach (CheckBox chk in flowSymptoms.Controls.OfType<CheckBox>())
             {
@@ -111,46 +130,57 @@
 
             }
 
-            // 2️⃣ Diagnosis output and severity level
-            string diagnosis = "";
-            string severity = "Low";
+            try
+            {
+                
+                string fullPath = Path.GetFullPath("C:\\Users\\Franzoli\\Desktop\\Coding\\Vscode\\Computer-ils\\gr12-ils\\Conmprog-C--WEBDEV-PR-colab\\C#\\iLS-V3-bagus\\iLS\\Resources\\symptomsDB\\symptoms.json");
 
-            // 3️⃣ Match common illnesses (simple logic)
-            if (symptoms.Contains("Fever") && symptoms.Contains("Cough") && symptoms.Contains("Body Aches") && symptoms.Contains("Fatigue"))
-            {
-                diagnosis = "You may have Influenza (Flu)";
-                severity = "Medium";
+                if (File.Exists(fullPath))
+                {
+                    string jsonContent = File.ReadAllText(fullPath);
+                    List<Symptomsdb> diseaseDB = JsonSerializer.Deserialize<List<Symptomsdb>>(jsonContent);
+
+                    // THIS IS THE LOGIC LOOP YOU WERE MISSING
+                    if (diseaseDB != null)
+                    {
+                        foreach (var disease in diseaseDB)
+                        {
+                            // CalculateMatch is the method inside your Symptomsdb class
+                            double score = disease.CalculateMatch(symptoms);
+
+                            // If this disease has a higher score than the current best, save it
+                            if (score > bestScore)
+                            {
+                                bestScore = score;
+                                bestMatch = disease;
+                            }
+                        }
+                    }
+                }
             }
-            else if (symptoms.Contains("Fever") && symptoms.Contains("Cough") && symptoms.Contains("Shortness of Breath") && symptoms.Contains("Chest Pain"))
+            catch (Exception ex)
             {
-                diagnosis = "Possible Pneumonia or COVID-19";
-                severity = "High";
+                MessageBox.Show("Error loading database: " + ex.Message);
             }
-            else if (symptoms.Contains("Headache") && symptoms.Contains("Fatigue"))
-            {
-                diagnosis = "You may be experiencing Migraine or Stress-related Fatigue";
-                severity = "Low";
-            }
-            else if (symptoms.Contains("Nausea") && symptoms.Contains("Vomiting") && symptoms.Contains("Diarrhea"))
-            {
-                diagnosis = "You may have Food Poisoning or Gastroenteritis";
-                severity = "Medium";
-            }
-            else if (symptoms.Contains("Sore Throat") && symptoms.Contains("Runny Nose") && symptoms.Contains("Cough"))
-            {
-                diagnosis = "You may have the Common Cold";
-                severity = "Low";
-            }
-            else
+
+            // --- 4. Determine Final Result ---
+            // If no match found or match is very weak (less than 30%)
+            if (bestMatch == null || bestScore < 0.3)
             {
                 diagnosis = "No clear match. Please consult a doctor for a professional diagnosis.";
                 severity = "Low";
             }
-
-            // 4️⃣ Display the output
+            else
+            {
+                int percent = (int)(bestScore * 100);
+                // Using bestMatch.name (lowercase n) as defined in your class
+                diagnosis = $"Possible diagnosis: {bestMatch.name} ({percent}% match)";
+                severity = bestMatch.severity;
+            }
+            // Display the output
             labelOutput.Text = diagnosis;
 
-            // 5️⃣ Change result panel color based on severity
+            // Change result panel color based on severity
             if (severity == "Low")
                 panelResult.BackColor = Color.LightGreen;
             else if (severity == "Medium")
