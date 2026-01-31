@@ -2,62 +2,81 @@
 	{
 		"name": "Common Cold",
 		"severity": "Low",
+		"Pain Scale": " ",
 		"symptoms": [ "Sore Throat", "Runny Nose", "Cough" ]
 	},
 	{
 		"name": "Influenza (Flu)",
 		"severity": "Medium",
+		"Pain Scale": " ",
 		"symptoms": [ "Fever", "Cough", "Body Aches", "Fatigue", "Chills" ]
 	},
 	{
 		"name": "Tuberculosis",
 		"severity": "High",
+		"Pain Scale": " ",
 		"symptoms": [ "Chronic Cough", "Weight Loss", "Night Sweats", "Fever", "Chest Pain" ]
 	},
 	{
 		"name": "Pneumonia",
 		"severity": "High",
+		"Pain Scale": " ",
 		"symptoms": [ "Fever", "Cough", "Shortness of Breath", "Chest Pain", "Fatigue" ]
 	},
 	{
 		"name": "Dengue",
 		"severity": "High",
+		"Pain Scale": " ",
 		"symptoms": [ "High Fever", "Severe Headache", "Body Aches", "Joint Pain", "Rash" ]
 	},
 	{
 		"name": "Diarrhea",
 		"severity": "Medium",
+		"Pain Scale": " ",
 		"symptoms": [ "Diarrhea", "Abdominal Pain", "Dehydration", "Nausea" ]
+
 	},
 	{
 		"name": "Migraine / Stress-related Fatigue",
 		"severity": "Low",
-		"symptoms": [ "Headache", "Fatigue", "Sensitivity to Light" ]
+		"Pain Scale": " ",
+		"symptoms": [ "Headache", "Fatigue" ]
+
 	},
 	{
 		"name": "Food Poisoning",
 		"severity": "Medium",
+		"Pain Scale": " ",
 		"symptoms": [ "Nausea", "Vomiting", "Diarrhea", "Abdominal Pain" ]
+
 	},
 	{
 		"name": "Allergic Reaction",
 		"severity": "Low",
+		"Pain Scale": " ",
 		"symptoms": [ "Itching", "Rash", "Sneezing", "Watery Eyes" ]
+
 	},
 	{
 		"name": "Skin Infection",
 		"severity": "Medium",
+		"Pain Scale": " ",
 		"symptoms": [ "Redness", "Swelling", "Pain", "Pus" ]
+
 	},
 	{
 		"name": "Possible Pneumonia or COVID-19",
 		"severity": "High",
+		"Pain Scale": " ",
 		"symptoms": [ "Fever", "Cough", "Shortness of Breath", "Chest Pain", "Loss of Smell" ]
+
 
 	},
 	{
 		"name": "Possible Death",
 		"severity": "Very high!!",
+		"Pain Scale": "Painless",
 		"symptoms": [ "Fever", "Cough", "Headache", "Sore Throat", "Runny Nose", "Body Aches", "Nausea", "Vomiting", "Diarrhea", "Shortness of Breath", "Chest Pain" ]
+
 	}
 ]
