@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="iLS.MainPage"
+             BackgroundColor="WhiteSmoke">
+
+    <Grid RowDefinitions="80, 40, *, 60" ColumnDefinitions="250, *">
+
+        <HorizontalStackLayout Grid.Row="0" Grid.ColumnSpan="2" Padding="15" Spacing="15" BackgroundColor="#F5F5F5">
+            <Button Text="📜 History" Clicked="OnHistoryClicked" BackgroundColor="White" TextColor="Black"/>
+            <Label Text="EasyMed" FontSize="32" FontAttributes="Bold" TextColor="Red" VerticalOptions="Center"/>
+        </HorizontalStackLayout>
+
+        <ContentView Grid.Row="1" Grid.ColumnSpan="2" BackgroundColor="#EEEEEE">
+            <Label x:Name="lblDisclaimer" Text="DISCLAIMER! THIS APP IS NOT ACCURATE. USE AT YOUR OWN RISK. " VerticalOptions="Center"/>
+        </ContentView>
+
+        <VerticalStackLayout Grid.Row="2" Grid.Column="0" Padding="10" Spacing="10" BackgroundColor="#E8E8E8">
+            <Label Text="Select Symptoms" FontAttributes="Bold" HorizontalOptions="Center"/>
+            <CollectionView x:Name="SymptomList" HeightRequest="450">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <HorizontalStackLayout Spacing="10" Padding="5">
+                            <CheckBox IsChecked="{Binding IsChecked}"/>
+                            <Label Text="{Binding Name}" VerticalOptions="Center"/>
+                        </HorizontalStackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+            <Button Text="Check Diagnosis" Clicked="OnCheckClicked" BackgroundColor="LightGreen" TextColor="Black"/>
+            <Button Text="Clear" Clicked="OnClearClicked" BackgroundColor="LightCoral" TextColor="Black" Margin="0,5"/>
+        </VerticalStackLayout>
+
+        <VerticalStackLayout Grid.Row="2" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center" Spacing="20">
+            <Frame x:Name="ResultFrame" WidthRequest="400" HeightRequest="150" CornerRadius="15" BackgroundColor="Gainsboro">
+                <Label x:Name="lblOutput" Text="Select symptoms to start" HorizontalTextAlignment="Center" VerticalOptions="Center" FontSize="20"/>
+            </Frame>
+            <Label x:Name="lblTimestamp" Text="Last checked: --" FontAttributes="Italic"/>
+        </VerticalStackLayout>
+    </Grid>
+</ContentPage>
